@@ -8,11 +8,9 @@
   background-color: rgb(255, 126, 117);
   padding: 0px 0px 0px 0px;
 }
-
 .navbar li {
   display: inline;
 }
-
 .logo {
   display: flex;
   justify-content: flex-start;
@@ -23,11 +21,21 @@
   color: black;
   padding: 1em;
   margin-left: auto;
+  background-color: rgb(255, 126, 117);
 }
 .navlinks:hover {
   background: rgb(252, 207, 207);
 }
-
+.center {
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+  list-style: none;
+  margin: 0;
+  padding: 0px 0px 0px 0px;
+  flex-flow: row wrap;
+  justify-content: center;
+}
 @media all and (max-width: 400px) {
   .navbar {
     flex-flow: column-wrap;
@@ -45,9 +53,6 @@
   .navbar ul {
     margin: 0;
     padding: 0px;
-  }
-  .navbar: last-of-type a {
-    border-bottom: none;
   }
 }
 .roboto-400 {
