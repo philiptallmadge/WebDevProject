@@ -1,0 +1,69 @@
+.navbar {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-end;
+  align-items: center;
+  list-style: none;
+  margin: 0;
+  background-color: rgb(255, 126, 117);
+  padding: 0px 0px 0px 0px;
+}
+
+.navbar li {
+  display: inline;
+}
+
+.logo {
+  display: flex;
+  justify-content: flex-start;
+  margin-right: auto;
+}
+.navlinks {
+  text-decoration: none;
+  color: black;
+  padding: 1em;
+  margin-left: auto;
+}
+.navlinks:hover {
+  background: rgb(252, 207, 207);
+}
+
+@media all and (max-width: 400px) {
+  .navbar {
+    flex-flow: column-wrap;
+    padding: 0;
+    align-items: stretch;
+  }
+  .navbar li {
+    text-align: center;
+    display: flex;
+    /*padding: 30px;*/
+    border-top: 1px solid rgba(255, 255, 255, 0.3);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    border-left: 1px solid rgba(0, 0, 0, 0.1);
+  }
+  .navbar ul {
+    margin: 0;
+    padding: 0px;
+  }
+  .navbar: last-of-type a {
+    border-bottom: none;
+  }
+}
+.roboto-400 {
+  font-family: "Roboto", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+.monoton-regular {
+  font-family: "Monoton", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.shadows-into-light-regular {
+  font-family: "Shadows Into Light", serif;
+  font-weight: 400;
+  font-style: normal;
+}

@@ -1,0 +1,47 @@
+.navbar {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-end;
+  align-items: center;
+  list-style: none;
+  margin: 0;
+  background-color: rgb(255, 126, 117);
+  padding: 0px 0px 0px 0px;
+}
+
+.navbar li {
+  display: inline;
+}
+
+.logo {
+  display: flex;
+  justify-content: flex-start;
+  margin-right: auto;
+}
+.navlinks {
+  text-decoration: none;
+  color: black;
+  padding: 1em;
+  margin-left: auto;
+}
+.navlinks:hover {
+  background: rgb(252, 207, 207);
+}
+
+.roboto-400 {
+  font-family: "Roboto", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+.monoton-regular {
+  font-family: "Monoton", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.shadows-into-light-regular {
+  font-family: "Shadows Into Light", serif;
+  font-weight: 400;
+  font-style: normal;
+}
